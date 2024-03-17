@@ -1,3 +1,8 @@
+:root{
+    --titulos: 'Arima', cursive;
+    --parrafos: 'Mulish', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,5 +11,35 @@
 
 body{
     background: #fff;
-    font-size: 30px;
+}
+
+/*globales*/
+.contenedor{
+    max-width: 120rem;
+    height: 50px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+h1,h2{
+    font-family: var(--titulos);
+}
+h3,p,a{
+    font-family: var(--parrafos);
+}
+
+
+/*encabezado*/
+.contenido-navegador{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-navegador{
+    background: #000;
+}
+
+.titulo_logo h2{
+    color: #fff;
 }
